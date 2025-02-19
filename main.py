@@ -29,6 +29,7 @@ to_text.grid(column=0,row=3)
 # to create Input and give it a specific location
 
 first_number_entry=tk.Entry()
+first_number_entry.focus()  # To create a blinking cursor in the input
 first_number_entry.grid(column=1,row=2)
 
 
